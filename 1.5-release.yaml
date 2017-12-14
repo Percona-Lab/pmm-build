@@ -1,0 +1,24 @@
+---
+name: 1.5.3
+repositories:
+  - url: https://github.com/percona/pmm-client
+    tag: v1.5.3
+
+  - url: https://github.com/percona/qan-agent
+    tag: v1.5.3
+
+  - url: https://github.com/percona/node_exporter
+    tag: v0.14.0+percona.2
+    path: github.com/prometheus/node_exporter
+
+  - url: https://github.com/percona/mysqld_exporter
+    tag: v0.10.0+percona.3
+
+  - url: https://github.com/percona/mongodb_exporter
+    tag: v0.3.2
+
+  - url: https://github.com/percona/proxysql_exporter
+    tag: v1.1.0
+
+  - url: https://github.com/percona/percona-toolkit
+    tag: 3.0.5

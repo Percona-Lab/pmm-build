@@ -1,0 +1,24 @@
+---
+name: 1.6-develop
+repositories:
+  - url: https://github.com/percona/pmm-client
+    branch: PMM-1.6
+
+  - url: https://github.com/percona/qan-agent
+    branch: PMM-1.6
+
+  - url: https://github.com/percona/node_exporter
+    branch: develop
+    path: github.com/prometheus/node_exporter
+
+  - url: https://github.com/percona/mysqld_exporter
+    branch: develop
+
+  - url: https://github.com/percona/mongodb_exporter
+    branch: develop
+
+  - url: https://github.com/percona/proxysql_exporter
+    branch: develop
+
+  - url: https://github.com/percona/percona-toolkit
+    branch: 3.0
